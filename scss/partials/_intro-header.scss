@@ -1,0 +1,31 @@
+// Intro Header Styles
+.intro-header {
+    position: relative;
+     h2 {
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: transparent;
+        color: #fff;
+        span {
+            display: block;
+            font-size: 60px;
+            background-color: transparent;
+            color: #f90;
+        }
+    }
+    .carousel-control-prev-icon {
+        background-color: transparent;
+    }
+    .carousel-control-next-icon {
+        background-color: transparent;
+    }
+    .carousel {
+        display: none;
+    }
+}
+// Intro Header Styles END

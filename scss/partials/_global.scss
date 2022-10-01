@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.4;
+}
+body, html {
+    background-color: #ddd;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.frame {
+    display: block;
+    &::before, &::after {
+        content: " ";
+        display: block;
+        width: 70px;
+        height: 40px;;
+        position: absolute;
+        z-index: 1;
+    }
+    } ::before{
+        border-top: 2px solid #fff;
+        border-left: 2px solid #fff;
+        border-bottom: none;
+        border-right: none;
+        top: 10px;
+        left: 10px;
+    } ::after {
+        border-bottom: 2px solid #fff;
+        border-right: 2px solid #fff;
+        border-top: none;
+        border-left: none;
+        right: 10px;
+        bottom: 10px;
+    }
+
+.purple {
+    background-color: purple;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
